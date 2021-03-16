@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<title>JavaScript</title>
+</head>
+<body>
+
+  <nav class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" onclick="variable()" href="#">Saludo</a>
+    </li>
+  </nav>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed bg-rgba-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Clases de JavaScript
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"> 
+                Las clases son <b>"funciones especiales"</b>, como las expresiones de funciones y declaraciones de funciones, la sintaxis de una clase tiene dos componentes: expresiones de clases y declaraciones de clases.
+                <br>
+                <br>
+                Declaración de clases
+                <li>Se utiliza la palabra reservada <b>class</b></li>
+                <li>Un nombre para la clase "Animal"</li>
+                <br>
+                Declarando Clase
+                <br>
+                class Animal {
+                    <br>
+                    constructor(nombre) {
+                        <br>
+                        this.nombre = nombre;
+                        <br>
+                    }
+                    <br>
+                }
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">¿Qué es ECMAScript?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                Específicamente es el estándar que a partir del año 2015 a la actualidad se encarga de regir como debe ser interpretado y funcionar el lenguaje JavaScript, siendo este interpretado y procesado por multitud de plataformas, entre las que se encuentran los navegadores web, NodeJS u otros ambientes como el desarrollo de aplicaciones para los distintos sistemas operativos que actualmente existen en el mercado. Los responsables de dichos navegadores y JavaScript deben encargarse de interpretar el lenguaje tal como lo fija ECMAScript.
+           </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Propiedades de los objetos en JavaScript
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+            ¿Qué es un objeto?
+            <br>
+            Son estructuras de información capaces de contener variables(llamadas propiedades), así como funciones(llamadas métodos). Debido a que los objetos almacenan valores junto con funciones, son como programas independientes que se comunican entre sí para realizar tareas comunes.
+            <br>
+            <br>
+            Declarando Objeto
+            <br>
+            var miobjeto = {
+                <br>
+                nombre: "Jess",
+                <br>
+                edad: 19
+                <br>
+            };
+            <br>
+            <br>
+            Propiedades de los objetos
+            <br>
+            Las propiedades de un objeto básicamente son lo mismo que las variables comunes de JavaScript, excepto por el nexo con el objeto. Las propiedades de un objeto definen las características del objeto. Accedes a las propiedades de un objeto con una simple notación de puntos:
+            <br>
+            ObjectName.propertyName
+            <br>
+            <br>
+            Declarando 
+            <br>
+            var mycar = new objeto();
+            <br>
+            mycar.make = "Ford";
+            <br>
+            mycar.model =  "Mustang";
+            <br>
+            mycar.year = 1969;
+            <br>
+            <br>
+            O también se puede encerrar entre llaves ({})
+            <br>
+            <br>
+            var mycar = {
+                <br>
+                make : "Ford";
+                <br>
+                model =  "Mustang";
+                <br>
+                year = 1969
+                <br>
+            };
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+<script src="../js/app.js"></script>
+</html>
